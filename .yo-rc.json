@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "TermPaper",
+    "packageName": "ru.eltech.termpaper",
+    "packageFolder": "ru/eltech/termpaper",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.2",
+    "jwtSecretKey": "YmQ5YTA0ODYwM2VhOWY3ZGVkNDljN2FiYzQ2ZjVmMzIwODI0OTkzODFjOGIyOTQyMzBlZTNjNDdhZDk0NzY4YWU5NDFhMjcwOWM2ODZjODAxZDk4NTVmM2EyNWRhZDgyMzc4MGQ3N2ZmZGM4YjBiYTgyYjdiNjFjNjI5ZjYyNjE=",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "Steen8",
+  "repository-name": "TermPaperApp"
+}
