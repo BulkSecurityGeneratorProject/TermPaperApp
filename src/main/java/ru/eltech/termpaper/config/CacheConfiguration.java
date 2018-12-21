@@ -38,6 +38,18 @@ public class CacheConfiguration {
             cm.createCache(ru.eltech.termpaper.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(ru.eltech.termpaper.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(ru.eltech.termpaper.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(ru.eltech.termpaper.domain.Region.class.getName(), jcacheConfiguration);
+            cm.createCache(ru.eltech.termpaper.domain.Country.class.getName(), jcacheConfiguration);
+            cm.createCache(ru.eltech.termpaper.domain.Location.class.getName(), jcacheConfiguration);
+            cm.createCache(ru.eltech.termpaper.domain.Department.class.getName(), jcacheConfiguration);
+            cm.createCache(ru.eltech.termpaper.domain.Department.class.getName() + ".employees", jcacheConfiguration);
+            cm.createCache(ru.eltech.termpaper.domain.Task.class.getName(), jcacheConfiguration);
+            cm.createCache(ru.eltech.termpaper.domain.Task.class.getName() + ".jobs", jcacheConfiguration);
+            cm.createCache(ru.eltech.termpaper.domain.Employee.class.getName(), jcacheConfiguration);
+            cm.createCache(ru.eltech.termpaper.domain.Employee.class.getName() + ".jobs", jcacheConfiguration);
+            cm.createCache(ru.eltech.termpaper.domain.Job.class.getName(), jcacheConfiguration);
+            cm.createCache(ru.eltech.termpaper.domain.Job.class.getName() + ".tasks", jcacheConfiguration);
+            cm.createCache(ru.eltech.termpaper.domain.JobHistory.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
